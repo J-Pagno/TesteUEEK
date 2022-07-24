@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  width: 645px;
+  height: 413px;
+  padding: 38px 45px;
+
+  background: #ffffff;
+  box-shadow: 7px 13px 67px rgba(0, 0, 0, 0.15);
+  border-radius: 23px;
+}
+
+.emailField {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 555px;
+  height: 66px;
+  margin-top: 14px;
+  left: 0px;
+
+  background: #f4f4f4;
+  border: 1px solid #000000;
+  border-radius: 60px;
+
+  font-size: 20px;
+  padding-left: 29px;
+}
+
+.sendButton {
+  position: relative;
+  width: 168px;
+  height: 57px;
+  margin-top: 30px;
+  left: 0px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 159.5%;
+
+  color: #ffffff;
+
+  background: #52ad43;
+  border: 2.32992px solid #51ad42;
+  border-radius: 38.832px;
+}
+
+.bar1 {
+  position: relative;
+  width: 40.83px;
+  height: 3.37px;
+  left: 70px;
+  margin: 0px;
+  border: 0px;
+
+  background: #dfdfdf;
+  border-radius: 27.6834px;
+}
+
+.bar2 {
+  position: relative;
+  width: 40.83px;
+  height: 3.37px;
+  top: -4px;
+  left: 70px;
+  margin: 0px;
+  border: 0px;
+
+  background: #dfdfdf;
+  border-radius: 27.6834px;
+}
+
+.shopme {
+  position: relative;
+  width: 129px;
+  height: 30.3px;
+}
+
+.title {
+  position: relative;
+  width: 168px;
+  height: 32px;
+  margin-top: 36.55px;
+  left: 0px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 105%;
+
+  color: #363636;
+}
+
+.paragraph {
+  margin-top: 14px;
+  left: 0px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 159.5%;
+
+  color: #363636;
+}
